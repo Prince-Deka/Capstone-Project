@@ -48,7 +48,7 @@ function Calculate() {
               
            
         <button className="bg-gray-300 btn rounded" onClick={handleClear}>AC</button>
-        <button className="bg-gray-300 btn rounded" onClick={()=>handleSlice()} style={{alignText:"center"}}>x</button>
+        <button className="bg-gray-300 btn rounded" onClick={()=>handleSlice()} style={{alignText:"center"}}><ion-icon name="backspace"></ion-icon></button>
         <button className="bg-gray-300 btn rounded" onClick={()=>handleClick('%')}>%</button>
         <button className="bg-gray-300 btn rounded" onClick={()=>handleClick('/')}>/</button>
 
