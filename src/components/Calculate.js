@@ -1,6 +1,6 @@
 import React from 'react'
 import {useState} from 'react'
-
+import './Styles.css'
 
 
 function Calculate() {
@@ -39,7 +39,7 @@ function Calculate() {
   return (
       <div className="container mx-auto">
         <div className="flex justify-center">
-          <div className="frame w-68 bg-gray-200 rounded py-12 px-9 mt-5">
+          <div className="frame w-68 bg-gray-200 rounded py-12 px-9 mt-20">
             <div className="text-right text-3xl font-bold">
               <input type="text" className='print' style={{maxWidth:"237px", textAlign:"right", border:"2px solid #535a5c", paddingTop:"20px", paddingBottom:"20px"}} value={number} placeholder={0}/> 
               

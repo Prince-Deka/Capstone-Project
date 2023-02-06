@@ -1,0 +1,24 @@
+.print{
+    border-radius: 5px;
+    background: #fbacac;
+    box-shadow: inset 7px 7px 21px #b57c7c,
+                inset -7px -7px 21px #ffdcdc;
+    
+}
+
+.frame{
+    border: 2px solid #535a5c;
+    border-radius: 18px;
+    background: linear-gradient(145deg, #008eae, #007893);
+    box-shadow:  8px 8px 9px #003541,
+                 -4px -4px 9px #00d5ff;
+}
+
+.btn{
+    border: 1px solid #535a5c;
+    border-radius: 3px;
+    /* background: linear-gradient(145deg, #ff5252, #e64545); */
+    box-shadow:  5px 5px 6px #702222,
+                 3px 3px 2px #000000;
+    padding: 7px 12px;
+}
